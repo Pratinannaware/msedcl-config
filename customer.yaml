@@ -1,18 +1,4 @@
-spring:
-    application:
-        name: CUSTOMER-SERVICE
-    datasource:
-        driver-class-name: com.mysql.cj.jdbc.Driver
-        username: root
-        password: root123
-        url: jdbc:mysql://localhost:3306/customer_db
-    profiles:
-          active: uat
-server:
-    port: 8181
-logging:
-    file:
-        name: logs/customers.log
+# Configuration
 build:
   version: "1.0"
 customer:
